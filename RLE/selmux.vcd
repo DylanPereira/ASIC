@@ -1,0 +1,64 @@
+$date
+	Mon Oct 02 16:02:54 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module selmux_tb $end
+$var wire 32 ! muxout [31:0] $end
+$var reg 8 " count [7:0] $end
+$var reg 32 # data [31:0] $end
+$var reg 1 $ selector $end
+$scope module U_mux $end
+$var wire 8 % count [7:0] $end
+$var wire 32 & data [31:0] $end
+$var wire 1 $ selector $end
+$var reg 32 ' muxout [31:0] $end
+$scope begin SELMUX $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+b0 !
+$end
+#5
+b10100000101000001010000010100000 !
+b10100000101000001010000010100000 '
+b10100000101000001010000010100000 #
+b10100000101000001010000010100000 &
+#10
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 '
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 &
+#15
+b1111 "
+b1111 %
+#20
+b1111 !
+b1111 '
+1$
+#25
+b1111111 !
+b1111111 '
+b1111111 "
+b1111111 %
+#30
+b0 #
+b0 &
+#35
+b0 !
+b0 '
+0$
+#40

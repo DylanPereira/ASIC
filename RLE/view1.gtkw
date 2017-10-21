@@ -1,0 +1,125 @@
+[*]
+[*] GTKWave Analyzer v3.3.71 (w)1999-2016 BSI
+[*] Wed Oct 04 20:55:38 2017
+[*]
+[dumpfile] "C:\iverilog\work\rle.vcd"
+[dumpfile_mtime] "Wed Oct 04 20:55:09 2017"
+[dumpfile_size] 28754
+[savefile] "C:\iverilog\work\view1.gtkw"
+[timestart] 0
+[size] 1920 1017
+[pos] -1 -1
+*-2.826627 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rle_tb.
+[treeopen] rle_tb.U_rle.
+[treeopen] rle_tb.U_rle.bicount.
+[treeopen] rle_tb.U_rle.ctr.
+[treeopen] rle_tb.U_rle.mux.
+[sst_width] 197
+[signals_width] 293
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+rle_tb.clock
+rle_tb.sysres
+@22
+rle_tb.datain[31:0]
+[color] 3
+rle_tb.U_rle.ctr.inA[31:0]
+[color] 3
+rle_tb.U_rle.ctr.inB[31:0]
+@800200
+-controller
+@22
+[color] 6
+rle_tb.U_rle.ctr.xor_out[31:0]
+@28
+rle_tb.U_rle.ctr.and_out
+[color] 6
+rle_tb.U_rle.ctr.reset
+[color] 6
+rle_tb.U_rle.ctr.inc
+rle_tb.U_rle.ctr.overflow
+@1000200
+-controller
+@800200
+-bicounter
+@22
+rle_tb.U_rle.bicount.count[7:0]
+@28
+rle_tb.U_rle.bicount.reset
+@29
+rle_tb.U_rle.bicount.overflow
+@1000200
+-bicounter
+@800200
+-Mux
+@c00022
+[color] 2
+rle_tb.U_rle.mux.data[31:0]
+@28
+(0)rle_tb.U_rle.mux.data[31:0]
+(1)rle_tb.U_rle.mux.data[31:0]
+(2)rle_tb.U_rle.mux.data[31:0]
+(3)rle_tb.U_rle.mux.data[31:0]
+(4)rle_tb.U_rle.mux.data[31:0]
+(5)rle_tb.U_rle.mux.data[31:0]
+(6)rle_tb.U_rle.mux.data[31:0]
+(7)rle_tb.U_rle.mux.data[31:0]
+(8)rle_tb.U_rle.mux.data[31:0]
+(9)rle_tb.U_rle.mux.data[31:0]
+(10)rle_tb.U_rle.mux.data[31:0]
+(11)rle_tb.U_rle.mux.data[31:0]
+(12)rle_tb.U_rle.mux.data[31:0]
+(13)rle_tb.U_rle.mux.data[31:0]
+(14)rle_tb.U_rle.mux.data[31:0]
+(15)rle_tb.U_rle.mux.data[31:0]
+(16)rle_tb.U_rle.mux.data[31:0]
+(17)rle_tb.U_rle.mux.data[31:0]
+(18)rle_tb.U_rle.mux.data[31:0]
+(19)rle_tb.U_rle.mux.data[31:0]
+(20)rle_tb.U_rle.mux.data[31:0]
+(21)rle_tb.U_rle.mux.data[31:0]
+(22)rle_tb.U_rle.mux.data[31:0]
+(23)rle_tb.U_rle.mux.data[31:0]
+(24)rle_tb.U_rle.mux.data[31:0]
+(25)rle_tb.U_rle.mux.data[31:0]
+(26)rle_tb.U_rle.mux.data[31:0]
+(27)rle_tb.U_rle.mux.data[31:0]
+(28)rle_tb.U_rle.mux.data[31:0]
+(29)rle_tb.U_rle.mux.data[31:0]
+(30)rle_tb.U_rle.mux.data[31:0]
+(31)rle_tb.U_rle.mux.data[31:0]
+@1401200
+-group_end
+@200
+-mux data in A
+@c00022
+[color] 2
+rle_tb.U_rle.mux.count[7:0]
+@28
+(0)rle_tb.U_rle.mux.count[7:0]
+(1)rle_tb.U_rle.mux.count[7:0]
+(2)rle_tb.U_rle.mux.count[7:0]
+(3)rle_tb.U_rle.mux.count[7:0]
+(4)rle_tb.U_rle.mux.count[7:0]
+(5)rle_tb.U_rle.mux.count[7:0]
+(6)rle_tb.U_rle.mux.count[7:0]
+(7)rle_tb.U_rle.mux.count[7:0]
+@1401200
+-group_end
+@200
+-mux count in B
+@1000200
+-Mux
+@28
+rle_tb.U_rle.bicount.tff0.q
+rle_tb.U_rle.bicount.tff1.q
+rle_tb.U_rle.bicount.tff2.q
+rle_tb.U_rle.bicount.tff3.q
+rle_tb.U_rle.bicount.tff4.q
+rle_tb.U_rle.bicount.tff5.q
+rle_tb.U_rle.bicount.tff6.q
+rle_tb.U_rle.bicount.tff7.q
+[pattern_trace] 1
+[pattern_trace] 0

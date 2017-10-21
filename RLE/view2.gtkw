@@ -1,0 +1,94 @@
+[*]
+[*] GTKWave Analyzer v3.3.71 (w)1999-2016 BSI
+[*] Sun Oct 08 01:27:27 2017
+[*]
+[dumpfile] "C:\iverilog\work\rle2.vcd"
+[dumpfile_mtime] "Sun Oct 08 01:27:09 2017"
+[dumpfile_size] 52356
+[savefile] "C:\iverilog\work\view2.gtkw"
+[timestart] 94
+[size] 1920 1017
+[pos] -1 -1
+*-5.069572 192 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rle2_tb.
+[treeopen] rle2_tb.U_rle2.
+[treeopen] rle2_tb.U_rle2.ctr.
+[treeopen] rle2_tb.U_rle2.upcount.
+[sst_width] 197
+[signals_width] 186
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+rle2_tb.clock
+@22
+rle2_tb.datain[31:0]
+[color] 3
+rle2_tb.U_rle2.ctr.inA[31:0]
+[color] 3
+rle2_tb.U_rle2.ctr.inB[31:0]
+@28
+[color] 6
+rle2_tb.sysres
+@800200
+-controler
+@28
+[color] 2
+rle2_tb.U_rle2.ctr.inc
+[color] 6
+rle2_tb.U_rle2.ctr.reset
+@1000200
+-controler
+@800200
+-upcounter
+@22
+rle2_tb.U_rle2.upcount.count[7:0]
+@28
+rle2_tb.U_rle2.upcount.overflow
+[color] 6
+rle2_tb.U_rle2.upcount.reset
+@22
+rle2_tb.U_rle2.upcount.toggle[7:0]
+@1000200
+-upcounter
+@28
+rle2_tb.U_rle2.upcount.tff7.clock
+@800200
+-flip flop group
+@28
+[color] 7
+rle2_tb.U_rle2.upcount.tff0.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff1.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff2.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff3.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff4.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff5.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff6.q
+[color] 7
+rle2_tb.U_rle2.upcount.tff7.q
+@1000200
+-flip flop group
+@800200
+-mux
+@28
+rle2_tb.U_rle2.mux.clock
+rle2_tb.U_rle2.mux.clock2
+@29
+rle2_tb.U_rle2.cb2.clock
+@22
+rle2_tb.U_rle2.mux.count[7:0]
+rle2_tb.U_rle2.mux.data[31:0]
+rle2_tb.U_rle2.mux.muxout[31:0]
+@28
+rle2_tb.U_rle2.mux.selector
+@1000200
+-mux
+@22
+rle2_tb.U_rle2.cb2.out[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

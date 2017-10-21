@@ -1,0 +1,44 @@
+$date
+	Wed Sep 27 17:19:14 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module and32_tb $end
+$var wire 1 ! out $end
+$var reg 32 " in [31:0] $end
+$scope module U_and32 $end
+$var wire 32 # in [31:0] $end
+$var reg 1 ! out $end
+$scope begin AND32 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+0!
+$end
+#5
+1!
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 #
+#10
+0!
+b1111111111111111111111111111 "
+b1111111111111111111111111111 #
+#15
+b1111 "
+b1111 #
+#20
+b0 "
+b0 #
+#25
+b1 "
+b1 #
+#75

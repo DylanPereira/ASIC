@@ -1,0 +1,70 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0000000000956780 .scope module, "t_flipflop_alt" "t_flipflop_alt" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clock"
+    .port_info 1 /INPUT 1 "toggle"
+    .port_info 2 /INPUT 1 "reset"
+    .port_info 3 /OUTPUT 1 "q"
+    .port_info 4 /OUTPUT 1 "not_q"
+o0000000000856fd8 .functor BUFZ 1, C4<z>; HiZ drive
+v00000000009570e0_0 .net "clock", 0 0, o0000000000856fd8;  0 drivers
+v0000000000956900_0 .var "not_q", 0 0;
+v00000000009569a0_0 .var "q", 0 0;
+o0000000000857068 .functor BUFZ 1, C4<z>; HiZ drive
+v000000000095eca0_0 .net "reset", 0 0, o0000000000857068;  0 drivers
+o0000000000857098 .functor BUFZ 1, C4<z>; HiZ drive
+v000000000095ed40_0 .net "toggle", 0 0, o0000000000857098;  0 drivers
+E_0000000000856100/0 .event edge, v000000000095eca0_0;
+E_0000000000856100/1 .event posedge, v00000000009570e0_0;
+E_0000000000856100 .event/or E_0000000000856100/0, E_0000000000856100/1;
+    .scope S_0000000000956780;
+T_0 ;
+    %wait E_0000000000856100;
+    %load/vec4 v000000000095eca0_0;
+    %cmpi/e 1, 0, 1;
+    %jmp/0xz  T_0.0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000009569a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000000000956900_0, 0, 1;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v000000000095eca0_0;
+    %cmpi/e 0, 0, 1;
+    %jmp/0xz  T_0.2, 4;
+    %load/vec4 v000000000095ed40_0;
+    %inv;
+    %load/vec4 v00000000009569a0_0;
+    %inv;
+    %and;
+    %load/vec4 v000000000095ed40_0;
+    %load/vec4 v00000000009569a0_0;
+    %and;
+    %or;
+    %store/vec4 v0000000000956900_0, 0, 1;
+    %load/vec4 v000000000095ed40_0;
+    %load/vec4 v00000000009569a0_0;
+    %inv;
+    %and;
+    %load/vec4 v00000000009569a0_0;
+    %load/vec4 v000000000095ed40_0;
+    %inv;
+    %and;
+    %or;
+    %store/vec4 v00000000009569a0_0, 0, 1;
+T_0.2 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "t_flipflop_alt.v";

@@ -1,0 +1,56 @@
+$date
+	Mon Sep 25 03:28:44 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module xor_gate_tb $end
+$var wire 32 ! out [31:0] $end
+$var reg 32 " in1 [31:0] $end
+$var reg 32 # in2 [31:0] $end
+$scope module U_xor_gate $end
+$var wire 32 $ in1 [31:0] $end
+$var wire 32 % in2 [31:0] $end
+$var reg 32 & out [31:0] $end
+$scope begin XORGATE $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1000100010001 !
+b1000100010001 &
+b1000100010001 #
+b1000100010001 %
+#15
+b0 !
+b0 &
+b1000100010001 "
+b1000100010001 $
+#20
+b1000100010001 !
+b1000100010001 &
+b0 #
+b0 %
+#25
+b0 !
+b0 &
+b0 "
+b0 $
+#30
+b1010101010101010101010101010101 !
+b1010101010101010101010101010101 &
+b1010101010101010101010101010101 #
+b1010101010101010101010101010101 %
